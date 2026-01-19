@@ -5,9 +5,6 @@ This repository provides the official implementation of a hybrid deep learning f
 The proposed approach aims to improve recognition performance on non-stationary and noisy inertial sensor signals by extracting pertinent multiscale features prior to temporal modeling.
 
 ---
-Baseline_Configuration_I.py
-Baseline_Configuration_II.py
-Proposed_Model_(BEMD+BiLSTM+Attention).py
 
 
 ## Repository Structure
