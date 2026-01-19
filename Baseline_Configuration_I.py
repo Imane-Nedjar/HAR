@@ -71,13 +71,13 @@ y_train = load_y(DATASET_PATH + "train/y_train.txt")
 y_test = load_y(DATASET_PATH + "test/y_test.txt")
 
 # =========================================================
-# 4. CORRELATION MATRIX (RAW SIGNALS – ONE SAMPLE)
+# 4. CORRELATION MATRIX (RAW SIGNALS â€“ ONE SAMPLE)
 # =========================================================
 
 plt.figure(figsize=(10, 8))
 df_corr = pd.DataFrame(X_train[0])
 sns.heatmap(df_corr.corr(), cmap="coolwarm", center=0)
-plt.title("Correlation Matrix – Raw Sensor Signals")
+plt.title("Correlation Matrix â€“ Raw Sensor Signals")
 plt.savefig("Withoutfeature_correlation_raw.png", dpi=300)
 plt.show()
 
@@ -152,7 +152,7 @@ sns.heatmap(cm, annot=True, fmt="d", cmap="Blues",
             xticklabels=LABELS, yticklabels=LABELS)
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
-plt.title("Confusion Matrix – Raw Signals")
+plt.title("Confusion Matrix â€“ Raw Signals")
 plt.savefig("Withoutconfusion_matrix_raw.png", dpi=300)
 plt.show()
 
