@@ -1,5 +1,6 @@
 BEMD-Attention-BiLSTM for Robust Human Activity Recognition:
 This repository contains the official implementation of a hybrid deep learning framework for Human Activity Recognition (HAR)
+Repository Structure
 
 ├── Proposed Model(BEMD+BiLSTM+Attention).py  # Main framework
 ├── Baseline II Model.py                      # BEMD + BiLSTM (Ablation study)
