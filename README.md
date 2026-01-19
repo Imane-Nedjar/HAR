@@ -5,15 +5,19 @@ This repository provides the official implementation of a hybrid deep learning f
 The proposed approach aims to improve recognition performance on non-stationary and noisy inertial sensor signals by extracting pertinent multiscale features prior to temporal modeling.
 
 ---
+Baseline_Configuration_I.py
+Baseline_Configuration_II.py
+Proposed_Model_(BEMD+BiLSTM+Attention).py
+
 
 ## Repository Structure
-├── Proposed Model.py                         # Main framework (BEMD+BiLSTM+Attention)
+├── Proposed_Model_(BEMD+BiLSTM+Attention).py   # Main framework 
+   
+├── Baseline_Configuration_II.py                # BEMD + BiLSTM 
 
-├── Baseline II Model.py                      # BEMD + BiLSTM (Ablation study)
+├── Baseline_Configuration_I.py                 # Raw signal BiLSTM
 
-├── Baseline I Model.py                         # Raw signal BiLSTM
-
-├── requirements.txt                          # Dependency list
+├── requirements.txt                            # Dependency list
 
 └── README.md                                 # Documentation
 
